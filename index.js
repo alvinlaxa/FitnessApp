@@ -7,7 +7,7 @@ const auth = require("./auth");
 
 const app = express();
 
-mongoose.connect("process.env.MONGO_URI, {
+mongoose.connect("mongodb+srv://admin:admin123@wdc028-course-booking.tadnv.mongodb.net/fitness-tracking?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
